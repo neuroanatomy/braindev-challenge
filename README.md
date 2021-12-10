@@ -11,15 +11,15 @@ And indicated neurodevelopmental disorders in feature `fx` as 0 for control and 
 
 This starting kit requires Python and the following dependencies:
 
-* `numpy<1.20`
+* `numpy`
 * `scipy`
-* `pandas>=0.21`
-* `scikit-learn>=0.19,<=0.21`
+* `pandas`
+* `scikit-learn`
 * `matplolib`
 * `seaborn`
 * `nilearn`
 * `jupyter`
-* `ramp-workflow==0.2.1`
+* `ramp-workflow`
 
 Therefore, we advise you to install [Anaconda
 distribution](https://www.anaconda.com/download/) which include almost all
