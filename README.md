@@ -2,8 +2,8 @@
 
 ## Data
 We merged two preprocessed datasets:
-* The Autism Brain Imaging Data Exchange (ABIDE) 
-* Attention Deficit Hyperactivity Disorder (ADHD-200) 
+* The Autism Brain Imaging Data Exchange ([ABIDE](http://fcon_1000.projects.nitrc.org/indi/abide/)) 
+* Attention Deficit Hyperactivity Disorder ([ADHD-200](http://fcon_1000.projects.nitrc.org/indi/adhd200/)) 
 
 And indicated neurodevelopmental disorders in feature `fx` as 0 for control and 1 for diagnosed subjects. 
 
