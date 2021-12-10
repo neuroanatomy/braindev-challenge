@@ -25,9 +25,6 @@ Therefore, we advise you to install [Anaconda
 distribution](https://www.anaconda.com/download/) which include almost all
 dependencies.
 
-Only `nilearn` and `ramp-workflow` are not included by default in the Anaconda
-distribution. They will be installed from the execution of the notebook.
-
 Execute the jupyter notebook, from the root directory using:
 
 ```
@@ -35,9 +32,9 @@ jupyter notebook neurodevelop_starting_kit.ipynb
 ```
 
 
-## Advanced install using `conda` (optional)
+## Install using `conda` 
 
-We provide both an `environment.yml` file which can be used with `conda` to
+We provide an `environment.yml` file which can be used with `conda` to
 create a clean environment and install the necessary dependencies.
 
 ```
