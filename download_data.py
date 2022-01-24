@@ -16,7 +16,7 @@ except ImportError:
 
 import numpy as np
 import pandas as pd
-import joblib from scikit-learn
+import joblib
 
 
 ATLAS = ('basc064', 'basc122', 'basc197', 'craddock_scorr_mean',
