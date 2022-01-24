@@ -5,6 +5,7 @@ import pandas as pd
 import rampwf as rw
 
 from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.model_selection import train_test_split
 
 problem_title = 'Neurodevelopmental classification'
 
@@ -26,6 +27,9 @@ def get_cv(X, y):
     cv = StratifiedShuffleSplit(n_splits=8, test_size=0.2, random_state=42)
     return cv.split(X, y)
 
+def split_data(X, y):
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+    return X_train, y_train, X_test, y_test
 
 def _read_data(path, filename):
     subject_id = pd.read_csv(os.path.join(path, 'data', filename), header=None)
@@ -72,6 +76,10 @@ def get_train_data(path='.'):
 
 def get_test_data(path='.'):
     filename = 'test.csv'
+    return _read_data(path, filename)
+
+def get_all_data(path='.'):
+    filename = 'all.csv'
     return _read_data(path, filename)
 
 
