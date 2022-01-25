@@ -7,6 +7,8 @@ We merged two preprocessed with [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/
 
 And indicated neurodevelopmental disorders in feature `fx` as 0 for control and 1 for diagnosed subjects. 
 
+![](https://github.com/neuroanatomy/neurodevelop-challenge/blob/main/img/data_distr.png) 
+
 ## Getting started
 
 This starting kit requires Python and the following dependencies:
