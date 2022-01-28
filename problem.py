@@ -64,7 +64,6 @@ def _read_data(path, filename):
                    df_fmri_qc, df_fmri_tr], axis=1)
     X = X.loc[subject_id[0]]
     y = X['participants_dx']
-    X = X.drop('participants_dx', axis=1)
 
     return X, y.values
 
