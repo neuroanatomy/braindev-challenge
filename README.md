@@ -1,7 +1,7 @@
 ## IMaging-PsychiAtry Challenge (IMPAC): Predicting neurodevelopmental disorders from MRI data
 
 ## Data
-We merged two preprocessed with [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferWiki) datasets:
+We merged two datasets preprocessed with [FreeSurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/FreeSurferWiki):
 * The Autism Brain Imaging Data Exchange ([ABIDE](http://fcon_1000.projects.nitrc.org/indi/abide/)) 
 * Attention Deficit Hyperactivity Disorder ([ADHD-200](http://fcon_1000.projects.nitrc.org/indi/adhd200/)) 
 
