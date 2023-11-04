@@ -32,7 +32,7 @@ def split_data(X, y):
     return X_train, y_train, X_test, y_test
 
 def _read_data(path, filename):
-    subject_id = pd.read_csv(os.path.join(path, 'data', filename), header=None)
+    subject_id = pd.read_csv(os.path.join(path, 'data', filename), header=None, dtype=str)
     # read the list of the subjects
     df_participants = pd.read_csv(os.path.join(path, 'data',
                                                'participants.csv'),
